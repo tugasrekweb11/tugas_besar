@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-        <a class="navbar-brand" href="/user/">Tugas Besar</a>
+        <a class="navbar-brand" href="/user/">TrobosAjalah</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -32,14 +32,11 @@
                 </li>
 
                 <form action="/user/home" method="GET" class="form-inline my-2 my-lg-0">
-                    <div class="row">
-                        <div class="col-md-2">
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">cari</button>
-                        </div>
-                        <div class="col-md-10">
+                  
                             <input class="form-control mr-sm-2" type="search" placeholder="cari produk" name="s">
-                        </div>
-                    </div>
+                       
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">cari</button>
+                  
 
 
                 </form>
@@ -53,10 +50,10 @@
                 </div>
             <?php else : ?>
                 <div class="col-md-5">
-                    <a class="btn btn-outline-secondary my-2 my-sm-0" type="submit" href="/login">Login</a>
+                    <a class="btn btn-outline-success my-2 my-sm-0" type="submit" href="/login">Login</a>
                 </div>
                 <div class="col-md-5">
-                    <a type="button" class="btn btn-secondary" href="/register">Daftar</a>
+                    <a type="button" class="btn btn-warning" href="/register">Daftar</a>
                 </div>
             <?php endif; ?>
         </div>

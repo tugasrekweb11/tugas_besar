@@ -24,8 +24,8 @@
 
     <div class="row">
         <div class="col">
-            <a href="/produk/create" class="btn btn-primary mt-3">Tambah Data</a>
-            <h3>Daftar Komik</h3>
+            <a href="/produk/create" class="btn btn-success mt-3">Tambah Data</a>
+            <h3>Daftar Produk</h3>
 
             <table class="table">
                 <thead>

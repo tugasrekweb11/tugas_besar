@@ -3,29 +3,6 @@
 <?= $this->include('layout/navbar_user'); ?>
 
 <div class="container">
-
-    UPDATE TESTING
-    UPDATE TESTING
-    UPDATE TESTING
-    UPDATE TESTING
-    UPDATE TESTING
-
-    UPDATE TESTING
-    UPDATE TESTING
-    UPDATE TESTING
-    UPDATE TESTING
-    UPDATE TESTING
-
-
-    UPDATE TESTING
-    UPDATE TESTING
-    UPDATE TESTING
-    UPDATE TESTING
-    UPDATE TESTING
-
-
-
-
     <!--
     <div class="row mt-5">
         <div class="col-md-3">
